@@ -18,7 +18,7 @@ public class RedBull {
         driver.get("http://bulletins-pu.thomasmurray.com/");
         System.out.println(driver.getTitle());
         driver.findElement(By.name("username")).sendKeys("test");
-        driver.findElement(By.name("password")).sendKeys("dkYttNb4Jc(%zTRu");
+        driver.findElement(By.name("password")).sendKeys("test_password");
         driver.findElement(By.className("button1")).click();
         driver.quit();
     }
